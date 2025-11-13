@@ -1,0 +1,39 @@
+﻿@code {
+    [Parameter] public string Heading { get; set; } = "Rezervasyon Özeti";
+    [Parameter] public HashSet<string> Seats { get; set; } = new();
+    [Parameter] public decimal UnitPrice { get; set; }
+    [Parameter] public string? MovieTitle { get; set; }
+    [Parameter] public DateTime? Showtime { get; set; }
+    [Parameter] public string? Auditorium { get; set; }
+
+    decimal Total => Seats.Count * UnitPrice;
+}
+
+<div class="card padded summary">
+    <h4>@Heading</h4>
+
+    @if (!string.IsNullOrWhiteSpace(MovieTitle))
+    {
+        <p class="subtle"><strong>Film:</strong>@MovieTitle</p>
+    }
+
+    @if (Showtime.HasValue)
+    {
+        <p><strong>Seans:</strong> @Showtime.Value.ToString("dd MMMM yyyy - HH:mm")</p>
+    }
+
+    @if (!string.IsNullOrWhiteSpace(Auditorium))
+    {
+        <p><strong>Salon:</strong> @Auditorium</p>
+    }
+
+    @if (Showtime.HasValue || !string.IsNullOrWhiteSpace(Auditorium))
+    {
+        <hr />
+    }
+
+    <p><strong>Koltuklar:</strong> @string.Join(", ", Seats)</p>
+    <p><strong>Adet:</strong> @Seats.Count</p>
+    <p><strong>Birim:</strong> @UnitPrice ₺</p>
+    <h5 class="price">Toplam: @Total ₺</h5>
+</div>

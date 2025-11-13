@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+
+<div class="topbar">
+  <div class="container-app d-flex align-items-center justify-content-between py-2">
+    <a class="brand text-decoration-none text-light" href="/">
+      <span class="brand-badge"></span>
+      <span>CinemaSeat<strong>Booking</strong></span>
+    </a>
+
+    <nav class="d-flex align-items-center gap-2">
+      <NavLink class="btn btn-ghost" href="/" Match="NavLinkMatch.All">Ana Sayfa</NavLink>
+      <NavLink class="btn btn-ghost" href="/movies" Match="NavLinkMatch.Prefix">Filmler</NavLink>
+    </nav>
+  </div>
+</div>
+
+<div class="container-app">
+  @Body
+  <div class="footer subtle">© @DateTime.Now.Year CinemaSeatBooking  </div>
+</div>
+

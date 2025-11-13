@@ -1,0 +1,393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\pages\\checkout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\pages\\checkout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\services\\seatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\services\\seatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\pages\\seats.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\pages\\seats.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\components\\seatmap.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\components\\seatmap.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\components\\seatmap.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\components\\seatmap.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\components\\bookingsummary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\components\\bookingsummary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\pages\\movies.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\pages\\movies.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\wwwroot\\data\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\wwwroot\\data\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\pages\\seats.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\pages\\seats.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\components\\bookingsummary.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\components\\bookingsummary.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\pages\\movies.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\pages\\movies.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\models\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\models\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|c:\\users\\eda ergin\\source\\repos\\cinemaseatbooking\\cinemaseatbooking\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DEC28B-F5BC-4D16-911C-D0BACAD7122C}|CinemaSeatBooking\\CinemaSeatBooking.csproj|solutionrelative:cinemaseatbooking\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 229,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Seats.razor",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Seats.razor",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Pages\\Seats.razor",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Seats.razor",
+              "RelativeToolTip": "CinemaSeatBooking\\Pages\\Seats.razor",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAH0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T14:45:59.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Checkout.razor",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Checkout.razor",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Pages\\Checkout.razor",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Checkout.razor",
+              "RelativeToolTip": "CinemaSeatBooking\\Pages\\Checkout.razor",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T15:54:50.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Home.razor",
+              "RelativeToolTip": "CinemaSeatBooking\\Pages\\Home.razor",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwDIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T16:54:15.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Movies.razor",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Movies.razor",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Pages\\Movies.razor",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Movies.razor",
+              "RelativeToolTip": "CinemaSeatBooking\\Pages\\Movies.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T14:46:04.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingSummary.razor",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Components\\BookingSummary.razor",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Components\\BookingSummary.razor",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Components\\BookingSummary.razor",
+              "RelativeToolTip": "CinemaSeatBooking\\Components\\BookingSummary.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T14:46:54.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeatMap.razor",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Components\\SeatMap.razor",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Components\\SeatMap.razor",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Components\\SeatMap.razor",
+              "RelativeToolTip": "CinemaSeatBooking\\Components\\SeatMap.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T14:46:42.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeatMap.razor.css",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Components\\SeatMap.razor.css",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Components\\SeatMap.razor.css",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Components\\SeatMap.razor.css",
+              "RelativeToolTip": "CinemaSeatBooking\\Components\\SeatMap.razor.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-10T16:34:51.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeatService.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Services\\SeatService.cs",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Services\\SeatService.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Services\\SeatService.cs",
+              "RelativeToolTip": "CinemaSeatBooking\\Services\\SeatService.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAowI0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T16:27:09.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "CinemaSeatBooking\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T14:19:26.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\wwwroot\\index.html",
+              "RelativeToolTip": "CinemaSeatBooking\\wwwroot\\index.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-10T16:53:43.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Program.cs",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Program.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Program.cs",
+              "RelativeToolTip": "CinemaSeatBooking\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:45:40.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "movies.json",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\wwwroot\\data\\movies.json",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\wwwroot\\data\\movies.json",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\wwwroot\\data\\movies.json",
+              "RelativeToolTip": "CinemaSeatBooking\\wwwroot\\data\\movies.json",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-10T15:49:21.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Seats.razor.css",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Seats.razor.css",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Pages\\Seats.razor.css",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Seats.razor.css",
+              "RelativeToolTip": "CinemaSeatBooking\\Pages\\Seats.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-11T00:13:00.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Services\\MovieService.cs",
+              "RelativeToolTip": "CinemaSeatBooking\\Services\\MovieService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:45:48.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Models\\Movie.cs",
+              "RelativeToolTip": "CinemaSeatBooking\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T16:27:26.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "CinemaSeatBooking\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T16:56:06.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingSummary.razor.css",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Components\\BookingSummary.razor.css",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Components\\BookingSummary.razor.css",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Components\\BookingSummary.razor.css",
+              "RelativeToolTip": "CinemaSeatBooking\\Components\\BookingSummary.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T14:46:57.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "CinemaSeatBooking\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAADoBAAAAAAAAAAAowFwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T14:47:06.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Movies.razor.css",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Movies.razor.css",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Pages\\Movies.razor.css",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Pages\\Movies.razor.css",
+              "RelativeToolTip": "CinemaSeatBooking\\Pages\\Movies.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T14:46:25.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Showtime.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Models\\Showtime.cs",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\Models\\Showtime.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\Models\\Showtime.cs",
+              "RelativeToolTip": "CinemaSeatBooking\\Models\\Showtime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T16:06:21.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\App.razor",
+              "RelativeDocumentMoniker": "CinemaSeatBooking\\App.razor",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\CinemaSeatBooking\\CinemaSeatBooking\\App.razor",
+              "RelativeToolTip": "CinemaSeatBooking\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T16:16:37.962Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

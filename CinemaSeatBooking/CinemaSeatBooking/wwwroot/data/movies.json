@@ -1,0 +1,264 @@
+
+  [
+    {
+      "id": "1",
+      "title": "Interstellar",
+      "duration": 169,
+      "posterUrl": "images/interstellar.jpg",
+      "showtimes": [
+        {
+          "id": "s1",
+          "startAt": "2025-11-10T18:00:00",
+          "auditoriumId": "A1",
+          "unitPrice": 120
+        },
+        {
+          "id": "s2",
+          "startAt": "2025-11-10T21:00:00",
+          "auditoriumId": "A1",
+          "unitPrice": 120
+        },
+        {
+          "id": "s3",
+          "startAt": "2025-11-11T18:30:00",
+          "auditoriumId": "A1",
+          "unitPrice": 130
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Inception",
+      "duration": 148,
+      "posterUrl": "images/inception.jpg",
+      "showtimes": [
+        {
+          "id": "s4",
+          "startAt": "2025-11-10T19:00:00",
+          "auditoriumId": "B1",
+          "unitPrice": 110
+        },
+        {
+          "id": "s5",
+          "startAt": "2025-11-11T22:00:00",
+          "auditoriumId": "B1",
+          "unitPrice": 115
+        },
+        {
+          "id": "s6",
+          "startAt": "2025-11-12T20:00:00",
+          "auditoriumId": "B1",
+          "unitPrice": 120
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Oppenheimer",
+      "duration": 180,
+      "posterUrl": "images/oppenheimer.jpg",
+      "showtimes": [
+        {
+          "id": "s7",
+          "startAt": "2025-11-10T17:00:00",
+          "auditoriumId": "C1",
+          "unitPrice": 130
+        },
+        {
+          "id": "s8",
+          "startAt": "2025-11-10T21:30:00",
+          "auditoriumId": "C1",
+          "unitPrice": 130
+        },
+        {
+          "id": "s9",
+          "startAt": "2025-11-11T20:00:00",
+          "auditoriumId": "C1",
+          "unitPrice": 135
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Dune: Part Two",
+      "duration": 155,
+      "posterUrl": "images/dune2.jpg",
+      "showtimes": [
+        {
+          "id": "s10",
+          "startAt": "2025-11-10T18:00:00",
+          "auditoriumId": "D1",
+          "unitPrice": 125
+        },
+        {
+          "id": "s11",
+          "startAt": "2025-11-11T21:00:00",
+          "auditoriumId": "D1",
+          "unitPrice": 130
+        },
+        {
+          "id": "s12",
+          "startAt": "2025-11-12T19:30:00",
+          "auditoriumId": "D1",
+          "unitPrice": 120
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "The Batman",
+      "duration": 176,
+      "posterUrl": "images/thebatman.jpg",
+      "showtimes": [
+        {
+          "id": "s13",
+          "startAt": "2025-11-10T20:00:00",
+          "auditoriumId": "E1",
+          "unitPrice": 115
+        },
+        {
+          "id": "s14",
+          "startAt": "2025-11-11T22:30:00",
+          "auditoriumId": "E1",
+          "unitPrice": 120
+        },
+        {
+          "id": "s15",
+          "startAt": "2025-11-12T19:00:00",
+          "auditoriumId": "E1",
+          "unitPrice": 125
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Avatar: The Way of Water",
+      "duration": 192,
+      "posterUrl": "images/avatar2.jpg",
+      "showtimes": [
+        {
+          "id": "s16",
+          "startAt": "2025-11-10T17:00:00",
+          "auditoriumId": "F1",
+          "unitPrice": 140
+        },
+        {
+          "id": "s17",
+          "startAt": "2025-11-11T21:00:00",
+          "auditoriumId": "F1",
+          "unitPrice": 145
+        },
+        {
+          "id": "s18",
+          "startAt": "2025-11-12T18:30:00",
+          "auditoriumId": "F1",
+          "unitPrice": 150
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Joker: Folie à Deux",
+      "duration": 155,
+      "posterUrl": "images/joker2.jpg",
+      "showtimes": [
+        {
+          "id": "s19",
+          "startAt": "2025-11-10T19:00:00",
+          "auditoriumId": "G1",
+          "unitPrice": 125
+        },
+        {
+          "id": "s20",
+          "startAt": "2025-11-11T22:00:00",
+          "auditoriumId": "G1",
+          "unitPrice": 130
+        },
+        {
+          "id": "s21",
+          "startAt": "2025-11-12T20:30:00",
+          "auditoriumId": "G1",
+          "unitPrice": 125
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Tenet",
+      "duration": 150,
+      "posterUrl": "images/tenet.jpg",
+      "showtimes": [
+        {
+          "id": "s22",
+          "startAt": "2025-11-10T20:00:00",
+          "auditoriumId": "H1",
+          "unitPrice": 115
+        },
+        {
+          "id": "s23",
+          "startAt": "2025-11-11T22:30:00",
+          "auditoriumId": "H1",
+          "unitPrice": 120
+        },
+        {
+          "id": "s24",
+          "startAt": "2025-11-12T19:30:00",
+          "auditoriumId": "H1",
+          "unitPrice": 110
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "The Dark Knight",
+      "duration": 152,
+      "posterUrl": "images/darkknight.jpg",
+      "showtimes": [
+        {
+          "id": "s25",
+          "startAt": "2025-11-10T19:00:00",
+          "auditoriumId": "I1",
+          "unitPrice": 110
+        },
+        {
+          "id": "s26",
+          "startAt": "2025-11-11T21:30:00",
+          "auditoriumId": "I1",
+          "unitPrice": 115
+        },
+        {
+          "id": "s27",
+          "startAt": "2025-11-12T18:00:00",
+          "auditoriumId": "I1",
+          "unitPrice": 110
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "The Matrix Resurrections",
+      "duration": 148,
+      "posterUrl": "images/matrix4.jpg",
+      "showtimes": [
+        {
+          "id": "s28",
+          "startAt": "2025-11-10T18:30:00",
+          "auditoriumId": "J1",
+          "unitPrice": 105
+        },
+        {
+          "id": "s29",
+          "startAt": "2025-11-11T21:00:00",
+          "auditoriumId": "J1",
+          "unitPrice": 110
+        },
+        {
+          "id": "s30",
+          "startAt": "2025-11-12T19:30:00",
+          "auditoriumId": "J1",
+          "unitPrice": 115
+        }
+      ]
+    }
+  ]
+

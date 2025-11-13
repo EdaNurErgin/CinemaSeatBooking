@@ -1,0 +1,38 @@
+﻿@page "/movies"
+@using CinemaSeatBooking.Models
+@using CinemaSeatBooking.Services
+@inject MovieService MovieService
+@inject NavigationManager NavigationManager
+
+<h2 class="section-title">Filmler</h2>
+
+@if (movies is null || movies.Count == 0)
+{
+    <div class="empty">Filmler yükleniyor…</div>
+}
+else
+{
+    <div class="movie-grid">
+        @foreach (var movie in movies)
+        {
+            <div class="movie-card hoverable" @onclick="@(() => GoToSeats(movie.Id))">
+                <img class="movie-poster" src="@movie.PosterUrl" alt="@movie.Title" />
+                <div class="movie-body">
+                    <div class="movie-title">@movie.Title</div>
+                    <div class="movie-meta">Süre: @movie.Duration dk</div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<Movie> movies = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        movies = await MovieService.GetMoviesAsync();
+    }
+
+    void GoToSeats(string id) => NavigationManager.NavigateTo($"/movies/{id}/seats");
+}

@@ -1,0 +1,136 @@
+﻿@page "/movies/{id}/seats"
+@using CinemaSeatBooking.Models
+@using CinemaSeatBooking.Services
+@inject MovieService MovieService
+@inject SeatService SeatState
+@inject NavigationManager Nav
+
+<h2 class="section-title">@movie?.Title • Koltuk Seçimi</h2>
+
+@if (movie is null)
+{
+    <div class="empty">Yükleniyor…</div>
+}
+else
+{
+    <div class="grid grid-2">
+        <div class="card padded">
+            <label>Seans</label>
+            <select @bind="selectedShowtimeId" @bind:after="OnShowtimeChanged">
+                <option value="">-- Seans seçin --</option>
+                @foreach (var st in movie.Showtimes.OrderBy(s=>s.StartAt))
+                {
+                    <option value="@st.Id">
+                        @st.StartAt.ToString("dd.MM.yyyy HH:mm") • @st.AuditoriumId • @st.UnitPrice ₺
+                    </option>
+                }
+            </select>
+
+            @if (selectedShowtime is null)
+            {
+                <div class="empty mt-3">Önce seans seçiniz.</div>
+            }
+            else
+            {
+                <div class="screen-bar mt-3"></div>
+                <div class="seat-legend">
+                    <span><span class="legend-dot dot-available"></span>Müsait</span>
+                    <span><span class="legend-dot dot-selected"></span>Seçili</span>
+                    <span><span class="legend-dot dot-reserved"></span>Rezerve</span>
+                </div>
+
+                @* Film+Seans değişince SeatMap yeniden mount edilsin *@
+                <div @key="@($"{movie?.Id}-{selectedShowtimeId}")">
+
+                    <SeatMap Rows="10" Cols="16"
+                             ReservedSeats="reservedSeats"
+                             InitialSelectedSeats="@selectedSeats"
+                             OnSeatSelected="HandleSeatSelect" />
+                </div>
+            }
+
+            <div class="d-flex gap-2 mt-3">
+                <button class="btn" @onclick="ClearSelection" disabled="@(selectedSeats.Count==0)">Temizle</button>
+                <button class="btn btn-primary" @onclick="GoCheckout"
+                        disabled="@(selectedSeats.Count==0 || selectedShowtime is null)">
+                    Rezervasyonu Tamamla
+                </button>
+            </div>
+        </div>
+
+        <BookingSummary
+            Seats="@selectedSeats"
+            UnitPrice="@(selectedShowtime?.UnitPrice ?? 0)"
+            MovieTitle="@movie?.Title"
+            Showtime="@selectedShowtime?.StartAt"
+            Auditorium="@selectedShowtime?.AuditoriumId" />
+    </div>
+}
+
+@code {
+    [Parameter] public string id { get; set; } = "";
+    Movie? movie;
+    Showtime? selectedShowtime;
+    string? selectedShowtimeId;
+
+    HashSet<string> selectedSeats = new();
+    HashSet<string> reservedSeats = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await SeatState.LoadStateAsync();
+        selectedSeats = new HashSet<string>(SeatState.SelectedSeats);
+        movie = await MovieService.GetMovieByIdAsync(id);
+    }
+
+    void HandleSeatSelect(string seatId) //Koltuk seçme işlemini yönetir
+    {
+        if (selectedSeats.Contains(seatId)) selectedSeats.Remove(seatId);
+        else selectedSeats.Add(seatId);
+
+        SeatState.ReplaceSelectedSeats(selectedSeats); // CurrentKey altına yazar
+        SeatState.UnitPrice = selectedShowtime?.UnitPrice ?? 0;
+        _ = SeatState.SaveStateAsync();
+        StateHasChanged();
+    }
+
+    void OnShowtimeChanged() //Seans değişince koltukları, rezerve durumları ve fiyatı yeniler
+    {
+        selectedShowtime = movie?.Showtimes.FirstOrDefault(s => s.Id == selectedShowtimeId);
+        SeatState.UnitPrice = selectedShowtime?.UnitPrice ?? 0;
+        if (movie is null || selectedShowtime is null)
+            return;
+
+        // Geçici seçim anahtarı: FilmId_ShowtimeId
+        var currentKey = $"{movie.Id}_{selectedShowtime.Id}";
+        // Bu seansı aktif seans yap
+        SeatState.SetCurrentKey(currentKey);
+
+        //  seansın seçilmiş koltuk listesini UI değişkenine al
+        selectedSeats = SeatState.GetSelectionsFor(currentKey);
+
+        // Bu seansın kalıcı rezerve koltuklarını yükle (satın alınmışlar)
+        var reservedKey = $"{movie.Title}_{selectedShowtime.StartAt:yyyyMMddHHmm}";
+        if (SeatState.reservedByShowtime.TryGetValue(reservedKey, out var reserved))
+            reservedSeats = new HashSet<string>(reserved);
+        else
+            reservedSeats = new();
+
+        // Sayfalar arası özet bilgiler
+        SeatState.SelectedMovieTitle = movie.Title;
+        SeatState.SelectedShowtime = selectedShowtime.StartAt;
+        SeatState.SelectedAuditorium = selectedShowtime.AuditoriumId;
+
+        _ = SeatState.SaveStateAsync();
+        StateHasChanged();
+    }
+
+    void ClearSelection()
+    {
+        selectedSeats.Clear();
+        SeatState.ReplaceSelectedSeats(selectedSeats);//gecici secimler temizledi
+        _ = SeatState.SaveStateAsync();
+    }
+
+    void GoCheckout() => Nav.NavigateTo("/checkout");
+}

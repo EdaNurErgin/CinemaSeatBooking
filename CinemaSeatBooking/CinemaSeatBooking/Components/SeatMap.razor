@@ -1,0 +1,50 @@
+﻿@code {
+[Parameter] public int Rows { get; set; } = 10;
+[Parameter] public int Cols { get; set; } = 16;
+[Parameter] public EventCallback<string> OnSeatSelected { get; set; } //SeatMap e koltuga tiklandı bilgisi
+[Parameter] public HashSet<string> ReservedSeats { get; set; } = new();
+[Parameter] public IEnumerable<string> InitialSelectedSeats { get; set; } = Enumerable.Empty<string>();
+
+
+private HashSet<string> selectedSeats = new();
+bool IsReserved(string id) => ReservedSeats.Contains(id);
+
+protected override void OnParametersSet()
+{
+    selectedSeats = new HashSet<string>(InitialSelectedSeats ?? Enumerable.Empty<string>());
+}
+
+void ToggleSeat(string seatId)
+{
+    if (IsReserved(seatId)) return;
+    if (selectedSeats.Contains(seatId)) selectedSeats.Remove(seatId);
+    else selectedSeats.Add(seatId);
+    OnSeatSelected.InvokeAsync(seatId);
+}
+
+
+
+}
+
+<div class="seat-map">
+    @for (int i = 0; i < Rows; i++)
+    {
+        <div class="seat-row">
+            @for (int j = 0; j < Cols; j++)
+            {
+                var seatId = $"{(char)('A' + i)}{j + 1}";
+                var isReserved = IsReserved(seatId);
+                var isSelected = selectedSeats.Contains(seatId);
+
+                <button
+                    class="seat @(isSelected ? "selected" : "") @(isReserved ? "reserved" : "")"
+                    disabled="@isReserved"
+                    @onclick="() => ToggleSeat(seatId)">
+                    @seatId
+                </button>
+            }
+        </div>
+    }
+</div>
+
+

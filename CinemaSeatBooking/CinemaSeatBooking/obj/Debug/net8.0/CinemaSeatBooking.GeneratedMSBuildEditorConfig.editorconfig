@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = CinemaSeatBooking
+build_property.RootNamespace = CinemaSeatBooking
+build_property.ProjectDir = C:\Users\Eda Ergin\source\repos\CinemaSeatBooking\CinemaSeatBooking\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Eda Ergin\source\repos\CinemaSeatBooking\CinemaSeatBooking
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/Pages/Checkout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/Components/BookingSummary.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCb29raW5nU3VtbWFyeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-k8ghwjy56f
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/Components/SeatMap.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWF0TWFwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wk59yudz0l
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-iol512zp2z
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-s26x5ls03q
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/Pages/Movies.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-eqvvr8vf63
+
+[C:/Users/Eda Ergin/source/repos/CinemaSeatBooking/CinemaSeatBooking/Pages/Seats.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-g9zmhjk9an

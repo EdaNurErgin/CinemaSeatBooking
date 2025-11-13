@@ -1,0 +1,43 @@
+﻿.seat-map {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+
+
+.seat-row {
+    display: flex;
+    gap: 6px;
+}
+
+
+
+.seat {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+
+    .seat:hover {
+        background-color: #f0f0f0;
+    }
+
+
+
+    .seat.selected {
+        background-color: #4caf50;
+        color: white;
+    }
+
+    .seat.reserved {
+        background-color: #bbb;
+        color: #fff;
+        cursor: not-allowed;
+    }

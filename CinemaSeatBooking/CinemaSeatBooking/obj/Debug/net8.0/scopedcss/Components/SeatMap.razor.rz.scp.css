@@ -1,0 +1,43 @@
+.seat-map[b-wk59yudz0l] {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+
+
+.seat-row[b-wk59yudz0l] {
+    display: flex;
+    gap: 6px;
+}
+
+
+
+.seat[b-wk59yudz0l] {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+
+    .seat:hover[b-wk59yudz0l] {
+        background-color: #f0f0f0;
+    }
+
+
+
+    .seat.selected[b-wk59yudz0l] {
+        background-color: #4caf50;
+        color: white;
+    }
+
+    .seat.reserved[b-wk59yudz0l] {
+        background-color: #bbb;
+        color: #fff;
+        cursor: not-allowed;
+    }

@@ -1,0 +1,121 @@
+﻿@page "/checkout"
+@using System.ComponentModel.DataAnnotations
+@using CinemaSeatBooking.Services
+@inject SeatService SeatState
+
+<h2 class="section-title">Ödeme / Bilgi Formu</h2>
+
+<div class="grid grid-2">
+  <div class="card padded">
+    <EditForm Model="@user" OnValidSubmit="SubmitForm">
+      <DataAnnotationsValidator />
+      <ValidationSummary />
+
+      <div class="form-row">
+        <div>
+          <label>Ad Soyad</label>
+          <InputText @bind-Value="user.Name" />
+          <ValidationMessage For="@(() => user.Name)" />
+        </div>
+        <div>
+          <label>E-posta</label>
+          <InputText @bind-Value="user.Email" />
+          <ValidationMessage For="@(() => user.Email)" />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div>
+          <label>Telefon</label>
+          <InputText @bind-Value="user.Phone" />
+        </div>
+        <div>
+          <label>Toplam</label>
+          <input value="@(SeatState.SelectedSeats.Count * SeatState.UnitPrice) ₺" disabled />
+        </div>
+      </div>
+
+      <div class="mt-3 d-flex gap-2">
+        <button type="submit" class="btn btn-primary">Rezervasyonu Tamamla</button>
+      </div>
+    </EditForm>
+  </div>
+
+  <BookingSummary
+      Heading="Seçim Özeti"
+      Seats="@SeatState.SelectedSeats"
+      UnitPrice="@SeatState.UnitPrice"
+      MovieTitle="@SeatState.SelectedMovieTitle"
+      Showtime="@SeatState.SelectedShowtime"
+      Auditorium="@SeatState.SelectedAuditorium" />
+</div>
+
+@if (success)
+{
+    <div class="card padded mt-3">
+        <h4>İşlem başarıyla tamamlandı.</h4>
+        <p>Referans Kodu: <strong>@user.ReferenceCode</strong></p>
+        <BookingSummary
+            Heading="Satın Alınan Koltuklar"
+            Seats="@purchasedSeats"
+            UnitPrice="@purchasedUnitPrice"
+            MovieTitle="@purchasedMovieTitle"
+            Showtime="@purchasedShowtime"
+            Auditorium="@purchasedAuditorium" />
+        <p><strong>Satın alınan bilet adedi:</strong> @purchasedCount</p>
+    </div>
+}
+
+@code {
+    bool success;
+    int purchasedCount; 
+    UserInfo user = new();
+
+    // Başarı mesajında gösterilecek bilgiler (temizlenmeden önce kopyalanacak)
+    private HashSet<string> purchasedSeats = new();
+    private decimal purchasedUnitPrice;
+    private string? purchasedMovieTitle;
+    private DateTime? purchasedShowtime;
+    private string? purchasedAuditorium;
+
+    protected override async Task OnInitializedAsync() //Sayfa yüklenirken eski seçimleri ve filmi yükler
+    {
+        await SeatState.LoadStateAsync(); // yenilense de state kalsın
+    }
+
+
+    void SubmitForm()
+    {
+        // ÖNCE verileri kopyala (temizlenmeden önce)
+        purchasedSeats = new HashSet<string>(SeatState.SelectedSeats);
+        purchasedUnitPrice = SeatState.UnitPrice;
+        purchasedMovieTitle = SeatState.SelectedMovieTitle;
+        purchasedShowtime = SeatState.SelectedShowtime;
+        purchasedAuditorium = SeatState.SelectedAuditorium;
+        purchasedCount = purchasedSeats.Count;
+
+        user.ReferenceCode = $"BK-{DateTime.Now:yyyyMMddHHmm}";
+        success = true;
+
+        // Kalıcı rezervasyon anahtarı
+        var reservedKey = $"{SeatState.SelectedMovieTitle}_{SeatState.SelectedShowtime:yyyyMMddHHmm}";
+
+        // Satın alınanları kalıcıya taşı
+        SeatState.CommitPurchase(reservedKey);
+
+        // O seansın geçici seçimlerini temizle + özetleri sıfırla
+        SeatState.ClearCurrentSelection();
+
+        // Kaydet
+        _ = SeatState.SaveStateAsync();
+    }
+
+
+    public class UserInfo
+    {
+        [Required] public string Name { get; set; } = "";
+        [Required, EmailAddress] public string Email { get; set; } = "";
+        [Required] public string? Phone { get; set; }
+        public string? ReferenceCode { get; set; }
+    }
+}
